@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="color-scheme" content="dark light" />
+    <meta name="description" content="Personal Jira Board — Kanban boards, cards and workflow tracking." />
+    <link rel="icon" href="/board.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600&family=Nunito:wght@400..800&display=swap"
+      rel="stylesheet"
+    />
+    <title>Personal Jira Board — Track the work</title>
+    <script type="module" crossorigin src="/assets/index-BLM162Yt.js"></script>
+    <link rel="modulepreload" crossorigin href="/assets/motion-BwE3W0Ja.js">
+    <link rel="modulepreload" crossorigin href="/assets/dnd-ByE30p0K.js">
+    <link rel="modulepreload" crossorigin href="/assets/firebase-CkEy-u7u.js">
+    <link rel="stylesheet" crossorigin href="/assets/index-CTZCLbxP.css">
+  </head>
+  <body>
+    <div id="root"></div>
+    <script>
+      // Pre-paint theme: follow the OS so there is no flash before the app
+      // hydrates. A stored preference overrides this a few milliseconds later.
+      (function () {
+        var light = window.matchMedia('(prefers-color-scheme: light)').matches;
+        document.documentElement.classList.add(light ? 'light' : 'dark');
+      })();
+    </script>
+  </body>
+</html>

@@ -1,0 +1,11 @@
+import{j as a}from"./motion-BwE3W0Ja.js";import{c as l,T as x,U as c,d as r,b8 as d,f as m,an as i,x as h}from"./index-BLM162Yt.js";/**
+ * @license lucide-react v0.453.0 - ISC
+ *
+ * This source code is licensed under the ISC license.
+ * See the LICENSE file in the root directory of this source tree.
+ */const u=l("CalendarClock",[["path",{d:"M21 7.5V6a2 2 0 0 0-2-2H5a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h3.5",key:"1osxxc"}],["path",{d:"M16 2v4",key:"4m81vk"}],["path",{d:"M8 2v4",key:"1cmpym"}],["path",{d:"M3 10h5",key:"r794hk"}],["path",{d:"M17.5 17.5 16 16.3V14",key:"akvzfd"}],["circle",{cx:"16",cy:"16",r:"6",key:"qoo3c4"}]]);/**
+ * @license lucide-react v0.453.0 - ISC
+ *
+ * This source code is licensed under the ISC license.
+ * See the LICENSE file in the root directory of this source tree.
+ */const p=l("SquareCheck",[["rect",{width:"18",height:"18",x:"3",y:"3",rx:"2",key:"afitv7"}],["path",{d:"m9 12 2 2 4-4",key:"dzmm74"}]]);function j({type:n,className:s}){const e=x[n],t=e.icon;return a.jsx(c,{content:`${e.label} — ${e.hint}`,children:a.jsx("span",{className:"inline-flex","aria-label":e.label,children:a.jsx(t,{className:r("size-3.5 text-type",s)})})})}function k({priority:n,className:s}){const e=d[n],t=e.icon;return a.jsx(c,{content:`${e.label} priority`,children:a.jsx("span",{className:"inline-flex","aria-label":`${e.label} priority`,children:a.jsx(t,{className:r("size-3.5",e.className,s)})})})}function b({dueAt:n,done:s}){const e=m(n);if(e===null)return null;const t=s?"neutral":e<0?"danger":e===0||e<=2?"warn":"neutral",o=e<0?`${Math.abs(e)}d late`:e===0?"Today":i(n);return a.jsx(c,{content:`Due ${i(n)}`,children:a.jsx("span",{className:"inline-flex",children:a.jsxs(h,{tone:t,children:[a.jsx(u,{className:"size-3"}),o]})})})}function g({points:n}){return n===null?null:a.jsx(c,{content:`${n} story point${n===1?"":"s"}`,children:a.jsx("span",{className:"mono grid h-5 min-w-5 place-items-center rounded bg-muted/70 px-1 text-2xs font-semibold text-muted-foreground ring-1 ring-inset ring-border",children:n})})}function C({done:n,total:s}){return s===0?null:a.jsx(c,{content:`${n} of ${s} checklist items done`,children:a.jsxs("span",{className:r("text-meta inline-flex items-center gap-1",n===s&&"text-success"),children:[a.jsx(p,{className:"size-3"}),n,"/",s]})})}export{u as C,b as D,k as P,j as T,C as a,g as b};
